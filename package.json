@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/edxco/restaurant-js/issues"
   },
-  "homepage": "https://github.com/edxco/restaurant-js#readme"
+  "homepage": "https://github.com/edxco/restaurant-js#readme",
+  "devDependencies": {
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
 }
