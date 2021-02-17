@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/style.css -o css/tailwind.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/edxco/restaurant-js#readme",
   "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
   }
 }
