@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/edxco/restaurant-js#readme",
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.6",
     "tailwindcss": "^2.0.3",
@@ -24,6 +25,7 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "postcss-cli": "^8.3.1"
   }
 }
